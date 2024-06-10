@@ -23,25 +23,17 @@ author:
   # Biographic information
   avatar           : "profile.jpg"
   name             : "Ruijing YANG"
-  pronouns         : # example: "she/her"  
   bio              : "5th-year PhD candicate at CUHK"
   location         : "Hong Kong"
   employer         : "The Chinese University of Hong Kong"
-  uri              : # URL
   email            : "RuijingYang@link.cuhk.edu.hk" 
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
-  semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL 
 
   # Social media
-  linkedin         : # Username
-  pinterest        : # Username
+  linkedin         : www.linkedin.com/in/ruijing-yang-1a34972a1
+  pinterest        : yangruijing6568
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
