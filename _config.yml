@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Ruijing YANG"
+title                    : "Ruijing (Chandler) YANG"
 title_separator          : "-"
-name                     : &name "Ruijing YANG"
+name                     : &name "Ruijing (Chandler) YANG"
 description              : &description "5th-year PhD candicate at CUHK"
 url                      : https://RuijingYANG.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,7 +22,7 @@ repository               : "RuijingYANG/RuijingYANG.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Ruijing YANG"
+  name             : "Ruijing (Chandler) YANG"
   bio              : "5th-year PhD candicate at CUHK"
   location         : "Hong Kong"
   employer         : "The Chinese University of Hong Kong"
