@@ -528,7 +528,7 @@
 
 .ai-border {
 border: solid 0.08em #eee;
-border-radius: 0;
+border-radius: 0.1em;
   padding: .2em .25em .15em;
 }
 
