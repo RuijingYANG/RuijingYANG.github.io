@@ -1,7 +1,7 @@
 ---
 title: "Aggregated Default Risk and Corporate Bond Returns"
 authors: Linjia Song and Ruijing Yang
-collection: publications
+collection: research
 permalink: 
 date: June 2024
 venue: "Working Paper"
