@@ -149,10 +149,7 @@ collections:
   research:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
+  research_data:
     output: true
     permalink: /:collection/:path/
 
