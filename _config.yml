@@ -200,9 +200,10 @@ defaults:
       path: ""
       type: research_data
     values:
-      layout: research_data
+      layout: single
       author_profile: true
       share: true
+      comments: true
 
 
 # Sass/SCSS
