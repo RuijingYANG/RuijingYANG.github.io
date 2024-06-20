@@ -195,12 +195,12 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _talks
+  # _research_data
   - scope:
       path: ""
-      type: talks
+      type: research_data
     values:
-      layout: talk
+      layout: research_data
       author_profile: true
       share: true
 
