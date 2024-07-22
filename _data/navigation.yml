@@ -5,9 +5,6 @@ main:
 
   - title: "Teaching"
     url: /teaching/    
-
-  - title: "Data"
-    url: /research_data/    
     
   # - title: "Portfolio"
   #   url: /portfolio/
