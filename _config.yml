@@ -27,15 +27,14 @@ author:
   location         : "Hong Kong"
   employer         : "The Chinese University of Hong Kong"
   email            : "RuijingYang@link.cuhk.edu.hk" 
+  CV: https://www.dropbox.com/scl/fi/wj09le3hdxogy6u72jiqc/Ruijing_Yang_CV.pdf?rlkey=ievy7jvu3iapumxpn78wbsrkr&dl=0
+
 
   # Academic websites
   googlescholar    : "https://scholar.google.com/citations?user=VcuYWEEAAAAJ&hl=en"
 
   # Social media
   linkedin         : "ruijing-yang-1a34972a1"
-
-  # CV
-  CV: https://www.dropbox.com/scl/fi/wj09le3hdxogy6u72jiqc/Ruijing_Yang_CV.pdf?rlkey=ievy7jvu3iapumxpn78wbsrkr&dl=0
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
