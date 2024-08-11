@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Finance, The Chinese University of Hong Kong, 2024 (expected)
+* Ph.D in Finance, The Chinese University of Hong Kong, 2024
 * MSc. in Finance, Nanyang Technological University, 2019
 * BEng. in Civil Engineering, Southeast University, 2017
 
