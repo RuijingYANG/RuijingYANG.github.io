@@ -15,7 +15,7 @@ He holds an MSc in Finance from Nanyang Technological University and a BEng in C
 
 Education
 ======
-* Ph.D in Finance, The Chinese University of Hong Kong, 2024 (expected)
+* Ph.D in Finance, The Chinese University of Hong Kong, 2024
 * MSc. in Finance, Nanyang Technological University, 2019
 * BEng. in Civil Engineering, Southeast University, 2017
 
