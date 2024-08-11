@@ -5,6 +5,6 @@ collection: research
 permalink: 
 date: June 2024
 venue: 'Working Paper'
-paperurl: 'https://github.com/RuijingYANG.github.io/files/paper1.pdf'
+paperurl: 'https://github.com/RuijingYANG/RuijingYANG.github.io/raw/master/files/Forecasting_Option_Returns_with_News_2024.pdf'
 dataurl: 'https://github.com/RuijingYANG/RuijingYANG.github.io/raw/master/files/dictionaries.zip'
 ---

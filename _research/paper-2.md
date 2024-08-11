@@ -5,5 +5,5 @@ collection: research
 permalink: 
 date: June 2024
 venue: "Working Paper"
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
+paperurl: 'https://github.com/RuijingYANG/RuijingYANG.github.io/raw/master/files/Aggregate_Default_Risk_and_Corporate_Bond_Returns.pdf'
 ---

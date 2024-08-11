@@ -5,5 +5,5 @@ collection: research
 permalink: 
 date: June 2024
 venue: 'Working Paper'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
+paperurl: 'https://github.com/RuijingYANG/RuijingYANG.github.io/raw/master/files/Media_Coverage_and_Option_Returns.pdf'
 ---
