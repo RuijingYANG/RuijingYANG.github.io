@@ -15,9 +15,9 @@ He holds a PhD in Finance from The Chinese University of Hong Kong, MSc in Finan
 
 Education
 ======
-2019-2024 Ph.D in Finance, The Chinese University of Hong Kong
-2017-2019 MSc. in Finance, Nanyang Technological University
-2013-2017 BEng. in Civil Engineering, Southeast University
+2019-2024 Ph.D in Finance, The Chinese University of Hong Kong  
+2017-2019 MSc. in Finance, Nanyang Technological University  
+2013-2017 BEng. in Civil Engineering, Southeast University  
 
 Working Papers
 ======
