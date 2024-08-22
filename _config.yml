@@ -11,8 +11,8 @@ locale                   : "en-US"
 title                    : "Ruijing (Chandler) YANG"
 title_separator          : "-"
 name                     : &name "Ruijing (Chandler) YANG"
-description              : &description "5th-year PhD candicate at CUHK"
-url                      : https://RuijingYANG.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "Postdoctoral Fellowship"
+url                      : https://RuijingYANG.github.io # the base hostname & protocol for your site e.g. "https://RuijingYANG.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "RuijingYANG/RuijingYANG.github.io"
 
@@ -23,9 +23,9 @@ author:
   # Biographic information
   avatar           : "profile.jpg"
   name             : "Ruijing (Chandler) YANG"
-  bio              : "5th-year PhD candicate at CUHK"
+  bio              : "Postdoctoral Fellowship"
   location         : "Hong Kong"
-  employer         : "The Chinese University of Hong Kong"
+  employer         : "XXX University"
   email            : "RuijingYang@link.cuhk.edu.hk" 
 
   # Academic websites
