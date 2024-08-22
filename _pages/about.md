@@ -19,7 +19,7 @@ Education
 
 Working Papers
 ======
-1. <u>Forecasting Option Returns with News</u> (with Jie Cao, Bing Han, Gang Li, and Xintong Zhan)  
+1. <u>Forecasting Option Returns with News</u> (with Jie Cao, Bing Han, Gang Li, and Xintong Zhan)                                         
   – AFA 2024 (scheduled), ICFT (2024), 2024 Hong Kong Coference for Fintech, AI, and Big Data
   in Business, Virtual Derivatives Workshop (2024), MFA (2024), FERM (2023), APAD (2023),
   and China Derivatives Youth Forum (2023), CICF (2022), AsianFA (2022), CIRF (2022), SFS
