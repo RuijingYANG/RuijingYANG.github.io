@@ -1,13 +1,13 @@
 ---
 layout: archive
-title: "Presentation"
+title: ""
 permalink: /presentation/
 author_profile: true
 ---
 
 {% include base_path %}
 
-Presentations (<sup>*<sup> by coauthor):
+Presentations (<sup>*</sup> by coauthor):
 ======
 * American Finance Association (AFA) Annual Meeting, 2025, San Francisco, USA (scheduled)
 * Midwest Finance Association (MFA) Annual Meeting, 2024, Chicago, USA 
