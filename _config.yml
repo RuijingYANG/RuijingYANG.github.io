@@ -143,15 +143,16 @@ kramdown:
 
 # Collections
 collections:
+# research:
+#   output: true
+#   permalink: /:collection/:path/
   teaching:
     output: true
     permalink: /:collection/:path/
-  research:
+  presentation:
     output: true
     permalink: /:collection/:path/
-  research_data:
-    output: true
-    permalink: /:collection/:path/
+
 
 
 # Defaults
@@ -174,6 +175,15 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # # _research
+  # - scope:
+  #     path: ""
+  #     type: research
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comments: true
   # _teaching
   - scope:
       path: ""
@@ -183,19 +193,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _research
+  # _presentation
   - scope:
       path: ""
-      type: research
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _research_data
-  - scope:
-      path: ""
-      type: research_data
+      type: presentation
     values:
       layout: single
       author_profile: true
