@@ -9,7 +9,8 @@ redirect_from:
 
 Employment
 ======
-* 2024 - Present, Postdoctoral Fellowship, The Hong Kong Polytechnic University; Supervisor: Jay Cao
+* 2024 - Present, Postdoctoral Fellowship, The Hong Kong Polytechnic University;   
+Supervisor: Jay Cao
 
 Education
 ======
