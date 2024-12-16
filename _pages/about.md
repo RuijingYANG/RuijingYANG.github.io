@@ -10,7 +10,7 @@ redirect_from:
 Employment
 ======
 * 2024 - Present, Postdoctoral Fellowship, The Hong Kong Polytechnic University;   
-Supervisor: Jay Cao
+Supervisor: Jie (Jay) Cao
 
 Education
 ======
@@ -26,13 +26,13 @@ Working Papers
   in Business, Virtual Derivatives Workshop (2024), MFA (2024), FERM (2023), APAD (2023),
   and China Derivatives Youth Forum (2023), CICF (2022), AsianFA (2022), CIRF (2022), SFS
   Cavalcade Asia-Pacific (2022), CFE-CMStatistics (2021)
-2. <u>The Role of Abnormal Stock Trading Volume in the Equity Option Market</u>  
+2. <u>Forecasting Corporate Bond Index Returns</u>
+   with Jie Cao, Linjia Song, and Xintong Zhan
+3. <u>Abnormal Media Coverage and Option Returns</u>
+   with Linjia Song
+4. <u>The Role of Abnormal Stock Trading Volume in the Equity Option Market</u>  
    with Jie Cao, Bing Han, Gang Li, and Xintong Zhan  
   – 12th FMCG (2022), 4th QFFE (2022)
-3. <u>Media Coverage and Option Returns</u>  
-   with Linjia Song  
-4. <u>Aggregated Default Risk and Corporate Bond Returns</u>  
-   with Linjia Song
 
 Research Interests
 ======
