@@ -9,7 +9,7 @@ author_profile: true
 
 Presentations (<sup>*</sup> by coauthor):
 ======
-* American Finance Association (AFA) Annual Meeting, 2025, San Francisco, USA (scheduled)
+* American Finance Association (AFA) Annual Meeting, 2025, San Francisco, USA
 * Midwest Finance Association (MFA) Annual Meeting, 2024, Chicago, USA 
 * Annual Conference of the Asia-Pacific Association of Derivatives, 2023    
 * 6<sup>th</sup> China Derivatives Youth Forum, 2023
@@ -22,6 +22,8 @@ Presentations (<sup>*</sup> by coauthor):
 
 Discussions:
 ======
+* <u>Using Vision Large Models to Understand Asset Returns</u>, China Financial Research Conference, 2025 
+_by Qihong Ruan and Liping Yang_ 
 * <u>Feedback, Flow-induced Fire Sales, and Option Returns</u>, Asian Finance Association Annual Conference, 2022  
 _by Han Xiao_ 
 * <u>The Economics of ETF Redemptions</u>, China International Risk Forum, 2022  
