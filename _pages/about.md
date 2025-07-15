@@ -9,7 +9,8 @@ redirect_from:
 
 Employment
 ======
-* 2024 - Present, Postdoctoral Fellowship, The Hong Kong Polytechnic University;   
+* 2025 - Present, Assistant Professor in Finance, University of Macau;
+* 2024 - 2025, Postdoctoral Fellowship, The Hong Kong Polytechnic University;   
 Supervisor: Jie (Jay) Cao
 
 Education
@@ -26,7 +27,7 @@ Working Papers
   in Business, Virtual Derivatives Workshop (2024), MFA (2024), FERM (2023), APAD (2023),
   and China Derivatives Youth Forum (2023), CICF (2022), AsianFA (2022), CIRF (2022), SFS
   Cavalcade Asia-Pacific (2022), CFE-CMStatistics (2021)
-2. <u>Forecasting Corporate Bond Index Returns</u>
+2. <u>Forecasting Corporate Bond Index Returns with Firm Characteristics and Macro Variables</u>
    with Jie Cao, Linjia Song, and Xintong Zhan
 3. <u>Abnormal Media Coverage and Option Returns</u>
    with Linjia Song
