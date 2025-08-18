@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Ruijing (Chandler) YANG"
 title_separator          : "-"
 name                     : &name "Ruijing (Chandler) YANG"
-description              : &description "Postdoctoral Fellowship"
+description              : &description "Assistant Professor in Finance"
 url                      : https://RuijingYANG.github.io # the base hostname & protocol for your site e.g. "https://RuijingYANG.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "RuijingYANG/RuijingYANG.github.io"
@@ -23,10 +23,10 @@ author:
   # Biographic information
   avatar           : "profile.jpg"
   name             : "Ruijing (Chandler) YANG"
-  bio              : "Postdoctoral Fellowship"
-  location         : "Hong Kong"
-  employer         : "The Hong Kong Polytechnic University"
-  email            : "ruijing.yang@polyu.edu.hk" 
+  bio              : "Assistant Professor in Finance"
+  location         : "Macau, China"
+  employer         : "University of Macau"
+  email            : "ruijingyang@um.edu.mo" 
   cv               : "Curriculum Vitae"
 
   # Academic websites
