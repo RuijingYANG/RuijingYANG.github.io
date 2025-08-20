@@ -9,10 +9,10 @@ author_profile: true
 
 Presentations (<sup>*</sup> by coauthor):
 ======
-* American Finance Association (AFA) Annual Meeting*</sup>, 2025, San Francisco, USA
+* American Finance Association (AFA) Annual Meeting<sup>*</sup>, 2025, San Francisco, USA
 * Midwest Finance Association (MFA) Annual Meeting, 2024, Chicago, USA 
 * Annual Conference of the Asia-Pacific Association of Derivatives, 2023    
-* 6<sup>th</sup> China Derivatives Youth Forum*</sup>, 2023
+* 6<sup>th</sup> China Derivatives Youth Forum<sup>*</sup>, 2023
 * The China International Conference in Finance<sup>*</sup>, 2022
 * Asian Finance Association Annual Conference, 2022
 * China International Risk Forum, 2022
@@ -30,4 +30,5 @@ _by Han Xiao_
 _by Han Xiao_
 * <u>Prime Time for Prime Funds: Floating NAV, Intraday Redemptions and Liquidity Risk During Crises</u>, 12<sup>th</sup> Financial Markets and Corporate Governance Conference, 2022  
 _by Lorenzo Casavecchia, Chanyuan Ge, C. Wei Li, and Ashish Tiwari_
+
 
