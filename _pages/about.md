@@ -35,6 +35,10 @@ Working Papers
    with Jie Cao, Bing Han, Gang Li, and Xintong Zhan  
   – 12th FMCG (2022), 4th QFFE (2022)
 
+Publication by Invitation
+======
+1. Beyond Green: Impacts of Green Bond Issuance on Conventional Bonds in China (with Jie Cao, Xintong Zhan, Junting Liu, and Linyu Zhou), 2026, Asian Economic Policy Review (Special Issue on Sustainable Finance and Policies in Asia) forthcoming.
+
 Research Interests
 ======
 * Empirical Asset Pricing: derivatives, return predictability, investments
