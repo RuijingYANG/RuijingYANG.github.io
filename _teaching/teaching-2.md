@@ -1,9 +1,9 @@
 ---
-title: "Financial Management"
+title: "FINC7054 – INTRODUCTION TO MODERN FINANCIAL TECHNOLOGY"
 collection: teaching
-role: "Teaching Assistant"
-type: "Undergraduate"
-venue: "Department of Finance, The Chinese University of Hong Kong"
-date: June 2020
-location: "Hong Kong"
+role: "Instructor"
+type: "MSc"
+venue: "FBA, University of Macau"
+date: Feburary 2026
+location: "Macau"
 ---

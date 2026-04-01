@@ -1,9 +1,9 @@
 ---
-title: "Fundamentals of Business Finance"
+title: "FINC2003 - Corporate Finance"
 collection: teaching
-role: "Teaching Assistant"
+role: "Instructor"
 type: "Undergraduate"
-venue: "Department of Finance, The Chinese University of Hong Kong"
-date: June 2019
-location: "Hong Kong"
+venue: "FBA, University of Macau"
+date: Feburary 2026
+location: "Macau"
 ---
