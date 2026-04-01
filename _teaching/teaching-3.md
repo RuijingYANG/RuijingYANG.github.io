@@ -1,9 +1,9 @@
 ---
-title: "Selected Topics in Finance: Computerized Trading and Big Data "
+title: "FINC2003 - Corporate Finance"
 collection: teaching
-role: "Teaching Assistant"
+role: "Instructor"
 type: "Undergraduate"
-venue: "Department of Finance, The Chinese University of Hong Kong"
-date: June 2022
-location: "Hong Kong"
+venue: "FBA, University of Macau"
+date: Feburary 2026
+location: "Macau"
 ---
