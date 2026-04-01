@@ -1,9 +1,9 @@
 ---
-title: "Current Fintech Trends"
+title: "FINC7054 – INTRODUCTION TO MODERN FINANCIAL TECHNOLOGY"
 collection: teaching
-role: "Teaching Assistant"
-type: "MSc and MBA"
-venue: "Department of Finance, The Chinese University of Hong Kong"
-date: June 2023
-location: "Hong Kong"
+role: "Instructor"
+type: "MSc"
+venue: "FBA, University of Macau"
+date: Feburary 2026
+location: "Macau"
 ---
