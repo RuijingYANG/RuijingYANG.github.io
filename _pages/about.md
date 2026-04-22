@@ -12,7 +12,6 @@ Welcome! I am an Assistant Professor in Finance at the University of Macau. My r
 ## Employment
 - **2025–Present**: Assistant Professor in Finance, University of Macau
 - **2024–2025**: Postdoctoral Fellow, The Hong Kong Polytechnic University
-  Supervisor: Jie (Jay) Cao
 
 ## Education
 - **Ph.D. in Finance**, The Chinese University of Hong Kong, 2024
