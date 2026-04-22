@@ -12,8 +12,6 @@ main:
   - title: "Presentations"
     url: /presentation/
 
-  - title: "Data"
-    url: /research_data/
 
   - title: "CV"
     url: /cv/
