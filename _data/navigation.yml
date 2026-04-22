@@ -1,16 +1,16 @@
 # main links links
 main:
-  # - title: "Research"
-  #   url: /research/
+  - title: "Research"
+    url: /research/
 
   - title: "Teaching"
     url: /teaching/    
     
   - title: "Presentation"
     url: /presentation/
-        
-  # - title: "Blog Posts"
-  #   url: /year-archive/
-    
-  # - title: "CV"
-  #   url: /cv/
+
+  - title: "Data"
+    url: /research_data/
+
+  - title: "CV"
+    url: /cv/
