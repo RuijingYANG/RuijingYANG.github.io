@@ -17,38 +17,18 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2025 - Present: Assistant Professor in Finance, University of Macau
+* 2024 - 2025: Postdoctoral Fellow, The Hong Kong Polytechnic University
+  * Supervisor: Jie (Jay) Cao
   
-Papers
+Research interests
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Empirical Asset Pricing: derivatives, return predictability, investments
+* Machine learning in Finance: textual analysis, large language models
 
-Teaching
+Selected working papers
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Skills
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+1. Forecasting Option Returns with News (with Jie Cao, Bing Han, Gang Li, and Xintong Zhan)
+2. Forecasting Corporate Bond Index Returns with Firm Characteristics and Macro Variables (with Jie Cao, Linjia Song, and Xintong Zhan)
+3. Abnormal Media Coverage and Option Returns (with Linjia Song)
+4. The Role of Abnormal Stock Trading Volume in the Equity Option Market (with Jie Cao, Bing Han, Gang Li, and Xintong Zhan)
