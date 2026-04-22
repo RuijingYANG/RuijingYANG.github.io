@@ -4,6 +4,6 @@ collection: teaching
 role: "Instructor"
 type: "Undergraduate"
 venue: "Faculty of Business Administration, University of Macau"
-date: Feburary 2026
+date: 2026-02-01
 location: "Macau"
 ---
