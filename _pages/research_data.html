@@ -7,6 +7,10 @@ author_profile: true
 
 {% include base_path %}
 
+{% if site.research_data and site.research_data.size > 0 %}
 {% for post in site.research_data reversed %}
   {% include archive-single.html %}
 {% endfor %}
+{% else %}
+This page will host research datasets and replication resources.
+{% endif %}

@@ -1,46 +1,41 @@
 ---
 permalink: /
-title: "Ruijing YANG"
+title: "Ruijing (Chandler) Yang"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-Employment
-======
-* 2025 - Present, Assistant Professor in Finance, University of Macau;
-* 2024 - 2025, Postdoctoral Fellowship, The Hong Kong Polytechnic University;   
-Supervisor: Jie (Jay) Cao
+Welcome! I am an Assistant Professor in Finance at the University of Macau. My research focuses on empirical asset pricing, derivatives, and machine learning methods for financial prediction.
 
-Education
-======
-* 2019 - 2024, Ph.D in Finance, The Chinese University of Hong Kong  
-* 2017 - 2019, MSc. in Finance, Nanyang Technological University  
-* 2013 - 2017, BEng. in Civil Engineering, Southeast University  
+## Quick links
+- [Research](/research/)
+- [Teaching](/teaching/)
+- [Presentations](/presentation/)
+- [CV](/cv/)
+- [Data](/research_data/)
 
-Working Papers
-======
-1. <u>Forecasting Option Returns with News</u>  
-  with Jie Cao, Bing Han, Gang Li, and Xintong Zhan                                           
-  – AFA (2025), ICFT (2024), 2024 Hong Kong Conference for Fintech, AI, and Big Data
-  in Business, Virtual Derivatives Workshop (2024), MFA (2024), FERM (2023), APAD (2023),
-  and China Derivatives Youth Forum (2023), CICF (2022), AsianFA (2022), CIRF (2022), SFS
-  Cavalcade Asia-Pacific (2022), CFE-CMStatistics (2021)
-2. <u>Forecasting Corporate Bond Index Returns with Firm Characteristics and Macro Variables</u>
+## Employment
+- **2025–Present**: Assistant Professor in Finance, University of Macau
+- **2024–2025**: Postdoctoral Fellow, The Hong Kong Polytechnic University
+  Supervisor: Jie (Jay) Cao
+
+## Education
+- **Ph.D. in Finance**, The Chinese University of Hong Kong, 2024
+- **M.Sc. in Finance**, Nanyang Technological University, 2019
+- **B.Eng. in Civil Engineering**, Southeast University, 2017
+
+## Selected Working Papers
+1. **Forecasting Option Returns with News**
+   with Jie Cao, Bing Han, Gang Li, and Xintong Zhan
+2. **Forecasting Corporate Bond Index Returns with Firm Characteristics and Macro Variables**
    with Jie Cao, Linjia Song, and Xintong Zhan
-3. <u>Abnormal Media Coverage and Option Returns</u>
+3. **Abnormal Media Coverage and Option Returns**
    with Linjia Song
-4. <u>The Role of Abnormal Stock Trading Volume in the Equity Option Market</u>  
-   with Jie Cao, Bing Han, Gang Li, and Xintong Zhan  
-  – 12th FMCG (2022), 4th QFFE (2022)
+4. **The Role of Abnormal Stock Trading Volume in the Equity Option Market**
+   with Jie Cao, Bing Han, Gang Li, and Xintong Zhan
 
-Publication by Invitation
-======
-1. Beyond Green: Impacts of Green Bond Issuance on Conventional Bonds in China (with Jie Cao, Xintong Zhan, Junting Liu, and Linyu Zhou), 2026, Asian Economic Policy Review (Special Issue on Sustainable Finance and Policies in Asia) forthcoming.
-
-Research Interests
-======
-* Empirical Asset Pricing: derivatives, return predictability, investments
-* Machine learning in Finance: textual analysis, large language model
-
+## Research Interests
+- Empirical Asset Pricing: derivatives, return predictability, investments
+- Machine Learning in Finance: textual analysis, large language models
