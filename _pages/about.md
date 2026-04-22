@@ -27,12 +27,14 @@ Welcome! I am an Assistant Professor in Finance at the University of Macau. My r
 - **B.Eng. in Civil Engineering**, Southeast University, 2017
 
 ## Selected Working Papers
-{% include base_path %}
-{% assign selected_research = site.research | reverse %}
-{% for post in selected_research limit:4 %}
-- **{{ post.title }}**
-  - {{ post.authors }}
-{% endfor %}
+1. **Forecasting Option Returns with News**
+   with Jie Cao, Bing Han, Gang Li, and Xintong Zhan
+2. **Forecasting Corporate Bond Index Returns with Firm Characteristics and Macro Variables**
+   with Jie Cao, Linjia Song, and Xintong Zhan
+3. **Abnormal Media Coverage and Option Returns**
+   with Linjia Song
+4. **The Role of Abnormal Stock Trading Volume in the Equity Option Market**
+   with Jie Cao, Bing Han, Gang Li, and Xintong Zhan
 
 ## Research Interests
 - Empirical Asset Pricing: derivatives, return predictability, investments
