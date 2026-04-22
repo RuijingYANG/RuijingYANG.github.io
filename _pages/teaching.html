@@ -7,6 +7,10 @@ author_profile: true
 
 {% include base_path %}
 
+{% if site.teaching and site.teaching.size > 0 %}
 {% for post in site.teaching reversed %}
   {% include archive-single.html %}
 {% endfor %}
+{% else %}
+I will update this page with course materials and syllabi soon.
+{% endif %}
