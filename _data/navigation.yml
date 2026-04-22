@@ -1,16 +1,17 @@
-# main links links
+# main links
 main:
+  - title: "About"
+    url: /
+
   - title: "Research"
     url: /research/
 
   - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Presentation"
+    url: /teaching/
+
+  - title: "Presentations"
     url: /presentation/
 
-  - title: "Data"
-    url: /research_data/
 
   - title: "CV"
     url: /cv/
