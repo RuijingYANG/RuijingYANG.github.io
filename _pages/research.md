@@ -11,6 +11,7 @@ You can also find my publications on [Google Scholar]({{ site.author.googleschol
 
 {% include base_path %}
 
-{% for post in site.research reversed %}
+{% assign ordered_research = site.research | sort: 'working_paper_order' %}
+{% for post in ordered_research %}
   {% include archive-single.html %}
 {% endfor %}
