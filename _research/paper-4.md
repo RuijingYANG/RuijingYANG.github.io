@@ -2,6 +2,7 @@
 title: "Forecasting Option Returns with News"
 authors: Jie Cao, Bing Han, Gang Li, Ruijing Yang, and Xintong Zhan
 collection: research
+working_paper_order: 1
 permalink: 
 date: 2024-06-01
 venue: 'Working Paper'
