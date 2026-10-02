@@ -6,5 +6,4 @@ working_paper_order: 3
 permalink: 
 date: 2024-06-01
 venue: "Working Paper"
-paperurl: 'https://github.com/RuijingYANG/RuijingYANG.github.io/raw/master/files/The Role of Abnormal Stock Trading Volume in the Equity Option Market.pdf'
 ---
