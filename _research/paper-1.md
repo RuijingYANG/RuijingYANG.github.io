@@ -2,6 +2,7 @@
 title: "The Role of Abnormal Stock Trading Volume in the Equity Option Market"
 authors: Jie Cao, Bing Han, Gang Li, Ruijing Yang, and Xintong Zhan
 collection: research
+working_paper_order: 3
 permalink: 
 date: 2024-06-01
 venue: "Working Paper"
