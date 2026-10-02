@@ -21,9 +21,11 @@ Welcome! I am an Assistant Professor in Finance at the University of Macau. My r
 ## Selected Working Papers
 {% include base_path %}
 {% assign selected_research = site.research | reverse %}
-{% for post in selected_research limit:4 %}
+{% for post in selected_research limit:5 %}
 - **{{ post.title }}**
+{% if post.authors %}
   - {{ post.authors }}
+{% endif %}
 {% endfor %}
 
 ## Research Interests
