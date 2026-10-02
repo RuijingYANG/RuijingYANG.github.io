@@ -1,0 +1,18 @@
+employment:
+  - dates: "2025–Present"
+    role: "Assistant Professor in Finance"
+    institution: "University of Macau"
+  - dates: "2024–2025"
+    role: "Postdoctoral Fellow"
+    institution: "The Hong Kong Polytechnic University"
+    supervisor: "Jie (Jay) Cao"
+education:
+  - dates: "2024"
+    degree: "Ph.D. in Finance"
+    institution: "The Chinese University of Hong Kong"
+  - dates: "2019"
+    degree: "M.Sc. in Finance"
+    institution: "Nanyang Technological University"
+  - dates: "2017"
+    degree: "B.Eng. in Civil Engineering"
+    institution: "Southeast University"

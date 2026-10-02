@@ -3,8 +3,8 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+      <nav id="site-nav" class="greedy-nav" aria-label="Main navigation">
+        <button type="button" aria-label="Toggle navigation" aria-controls="site-nav-links" aria-expanded="false"><span class="navicon" aria-hidden="true"></span></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
           {% for link in site.data.navigation.main %}
@@ -13,10 +13,10 @@
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}"{% if page.url == link.url %} class="is-current" aria-current="page"{% endif %}>{{ link.title }}</a></li>
           {% endfor %}
         </ul>
-        <ul class="hidden-links hidden"></ul>
+        <ul id="site-nav-links" class="hidden-links hidden"></ul>
       </nav>
     </div>
   </div>

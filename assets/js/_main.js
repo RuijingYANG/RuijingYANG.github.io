@@ -3,23 +3,7 @@
    ========================================================================== */
 
 $(document).ready(function(){
-  // Sticky footer
-  var bumpIt = function() {
-      $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
-    },
-    didResize = false;
-
-  bumpIt();
-
-  $(window).resize(function() {
-    didResize = true;
-  });
-  setInterval(function() {
-    if (didResize) {
-      didResize = false;
-      bumpIt();
-    }
-  }, 250);
+  // The page layout keeps the footer at the bottom through CSS flexbox.
   // FitVids init
   $("#main").fitVids();
 
@@ -27,16 +11,15 @@ $(document).ready(function(){
   $(".sticky").Stickyfill();
 
   var stickySideBar = function(){
-    const MINIMUM_WIDTH = 1024;
-
     // Adjust if the follow button is shown based upon screen size
     var width = $(window).width();
-    var show = $(".author__urls-wrapper button").length === 0 ? width > MINIMUM_WIDTH : !$(".author__urls-wrapper button").is(":visible");
+    var $authorButton = $(".author__urls-wrapper button");
+    var show = $authorButton.length === 0 ? width >= 925 : !$authorButton.is(":visible");
 
     // Don't show the follow button if there is no content for it
     var count = $('.author__urls.social-icons li').length - $('li[class="author__desktop"]').length;
-    if (width <= MINIMUM_WIDTH && count === 0) {
-      $(".author__urls-wrapper button").hide();
+    if (!show && count === 0) {
+      $authorButton.hide();
       show = false;
     }
 
@@ -45,10 +28,12 @@ $(document).ready(function(){
       Stickyfill.rebuild();
       Stickyfill.init();
       $(".author__urls").show();
+      $authorButton.attr("aria-expanded", "true");
     } else {
       // unfix
       Stickyfill.stop();
       $(".author__urls").hide();
+      $authorButton.removeClass("open").attr("aria-expanded", "false");
     }
   };
 
@@ -60,8 +45,31 @@ $(document).ready(function(){
 
   // Follow menu drop down
   $(".author__urls-wrapper button").on("click", function() {
-    $(".author__urls").fadeToggle("fast", function() {});
-    $(".author__urls-wrapper button").toggleClass("open");
+    var isOpen = $(this).attr("aria-expanded") === "true";
+    $(".author__urls").stop(true, true).fadeToggle("fast");
+    $(this).toggleClass("open", !isOpen).attr("aria-expanded", String(!isOpen));
+  });
+
+  // Keep the navigation disclosure state available to keyboard and screen readers.
+  var syncNavigationState = function() {
+    var isOpen = !$("#site-nav .hidden-links").hasClass("hidden");
+    $("#site-nav button").attr("aria-expanded", String(isOpen)).toggleClass("close", isOpen);
+  };
+  $("#site-nav button").on("click", syncNavigationState);
+  $(window).on("resize", syncNavigationState);
+  syncNavigationState();
+
+  $(document).on("keydown", function(event) {
+    if (event.key !== "Escape") return;
+    if ($("#site-nav button").attr("aria-expanded") === "true") {
+      $("#site-nav .hidden-links").addClass("hidden");
+      syncNavigationState();
+      $("#site-nav button").trigger("focus");
+    }
+    if ($(".author__urls-wrapper button").is(":visible") && $(".author__urls-wrapper button").attr("aria-expanded") === "true") {
+      $(".author__urls").stop(true, true).hide();
+      $(".author__urls-wrapper button").removeClass("open").attr("aria-expanded", "false").trigger("focus");
+    }
   });
 
   // init smooth scroll, this needs to be slightly more than then fixed masthead height

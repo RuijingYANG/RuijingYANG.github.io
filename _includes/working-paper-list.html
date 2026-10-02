@@ -1,0 +1,12 @@
+{% assign papers = site.research | sort: 'working_paper_order' %}
+{% assign paper_limit = include.limit | default: papers.size %}
+<ol class="paper-list{% if include.compact %} paper-list--compact{% endif %}">
+  {% for paper in papers limit:paper_limit %}
+  <li class="paper-row">
+    <div class="paper-body">
+      <h3 class="paper-title">{{ paper.title | escape }}</h3>
+      {% if paper.authors %}<p class="paper-authors">{{ paper.authors | escape }}</p>{% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ol>

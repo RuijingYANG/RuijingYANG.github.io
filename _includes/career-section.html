@@ -1,0 +1,15 @@
+<section class="career-section">
+  <h2>{{ include.title }}</h2>
+  <ul class="career-list">
+    {% for item in site.data.career[include.type] %}
+    <li class="career-row">
+      <span class="career-date">{{ item.dates }}</span>
+      <div>
+        <p class="career-primary">{{ item.role | default: item.degree | escape }}</p>
+        <p class="career-secondary">{{ item.institution | escape }}</p>
+        {% if include.show_supervisor and item.supervisor %}<p class="career-secondary">Supervisor: {{ item.supervisor | escape }}</p>{% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

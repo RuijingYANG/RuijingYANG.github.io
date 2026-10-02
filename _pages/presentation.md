@@ -5,27 +5,29 @@ permalink: /presentation/
 author_profile: true
 ---
 
-{% include base_path %}
+<p class="section-note">* by coauthor</p>
+{% assign presentation_years = site.data.presentations.presentations | group_by: 'year' %}
+{% for year in presentation_years %}
+<section class="presentation-year" aria-labelledby="presentations-{{ year.name }}">
+<h2 id="presentations-{{ year.name }}">{{ year.name }}</h2>
+<ul>
+{% for event in year.items %}
+<li>
+<p class="event-name">{{ event.name | escape }}{% if event.by_coauthor %}<sup class="coauthor-marker">*</sup>{% endif %}</p>
+{% if event.location %}<p class="event-place">{{ event.location | escape }}</p>{% endif %}
+</li>
+{% endfor %}
+</ul>
+</section>
+{% endfor %}
 
-## Presentations (* by coauthor)
-- ABFER-JFDS Conference on AI for Finance, 2026, Hefei, China
-- American Finance Association (AFA) Annual Meeting*, 2025, San Francisco, USA
-- Midwest Finance Association (MFA) Annual Meeting, 2024, Chicago, USA
-- Annual Conference of the Asia-Pacific Association of Derivatives, 2023
-- 6th China Derivatives Youth Forum*, 2023
-- The China International Conference in Finance*, 2022
-- Asian Finance Association Annual Conference, 2022
-- China International Risk Forum, 2022
-- SFS Cavalcade Asia-Pacific*, 2022
-- 12th Financial Markets and Corporate Governance Conference, 2022
-- 4th Quantitative Finance and Financial Econometrics, 2022
-
-## Discussions
-- **Using Vision Large Models to Understand Asset Returns**, China Financial Research Conference, 2025
-  _by Qihong Ruan and Liping Yang_
-- **Feedback, Flow-induced Fire Sales, and Option Returns**, Asian Finance Association Annual Conference, 2022
-  _by Han Xiao_
-- **The Economics of ETF Redemptions**, China International Risk Forum, 2022
-  _by Han Xiao_
-- **Prime Time for Prime Funds: Floating NAV, Intraday Redemptions and Liquidity Risk During Crises**, 12th Financial Markets and Corporate Governance Conference, 2022
-  _by Lorenzo Casavecchia, Chanyuan Ge, C. Wei Li, and Ashish Tiwari_
+<h2>Discussions</h2>
+<ul class="discussion-list">
+{% for event in site.data.presentations.discussions %}
+<li>
+<h3 class="discussion-title">{{ event.title | escape }}</h3>
+<p class="discussion-meta">{{ event.conference | escape }}, {{ event.year }}</p>
+<p class="discussion-authors">by {{ event.authors | escape }}</p>
+</li>
+{% endfor %}
+</ul>

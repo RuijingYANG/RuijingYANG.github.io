@@ -1,0 +1,62 @@
+# Verified conference records; newest year first. Shared by the website and downloadable CV.
+presentations:
+- year: 2026
+  name: ABFER-JFDS Conference on AI for Finance
+  by_coauthor: false
+  location: Hefei, China
+- year: 2025
+  name: American Finance Association (AFA) Annual Meeting
+  by_coauthor: true
+  location: San Francisco, USA
+- year: 2024
+  name: Midwest Finance Association (MFA) Annual Meeting
+  by_coauthor: false
+  location: Chicago, USA
+- year: 2024
+  name: FMA Conference on Derivatives and Volatility
+  by_coauthor: true
+- year: 2024
+  name: Hong Kong Conference for Fintech, AI, and Big Data in Business
+  by_coauthor: true
+- year: 2023
+  name: Annual Conference of the Asia-Pacific Association of Derivatives
+  by_coauthor: false
+- year: 2023
+  name: 6th China Derivatives Youth Forum
+  by_coauthor: true
+- year: 2022
+  name: The China International Conference in Finance
+  by_coauthor: true
+- year: 2022
+  name: Asian Finance Association Annual Conference
+  by_coauthor: false
+- year: 2022
+  name: China International Risk Forum
+  by_coauthor: false
+- year: 2022
+  name: SFS Cavalcade Asia-Pacific
+  by_coauthor: true
+- year: 2022
+  name: 12th Financial Markets and Corporate Governance Conference
+  by_coauthor: false
+- year: 2022
+  name: 4th Quantitative Finance and Financial Econometrics
+  by_coauthor: false
+discussions:
+- year: 2025
+  title: Using Vision Large Models to Understand Asset Returns
+  conference: China Financial Research Conference
+  authors: Qihong Ruan and Liping Yang
+- year: 2022
+  title: Feedback, Flow-induced Fire Sales, and Option Returns
+  conference: Asian Finance Association Annual Conference
+  authors: Han Xiao
+- year: 2022
+  title: The Economics of ETF Redemptions
+  conference: China International Risk Forum
+  authors: Han Xiao
+- year: 2022
+  title: 'Prime Time for Prime Funds: Floating NAV, Intraday Redemptions and Liquidity
+    Risk During Crises'
+  conference: 12th Financial Markets and Corporate Governance Conference
+  authors: Lorenzo Casavecchia, Chanyuan Ge, C. Wei Li, and Ashish Tiwari

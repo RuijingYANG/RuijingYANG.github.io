@@ -8,27 +8,19 @@ redirect_from:
 ---
 
 {% include base_path %}
+<p class="page-tools"><a href="{{ base_path }}/files/Ruijing_Yang_CV.pdf"><i class="fa-solid fa-arrow-down" aria-hidden="true"></i> Download full CV (PDF)</a></p>
 
-Education
-======
-* Ph.D in Finance, The Chinese University of Hong Kong, 2024
-* MSc. in Finance, Nanyang Technological University, 2019
-* BEng. in Civil Engineering, Southeast University, 2017
+{% include career-section.html type="employment" title="Employment" show_supervisor=true %}
+{% include career-section.html type="education" title="Education" %}
 
-Work experience
-======
-* 2025 - Present: Assistant Professor in Finance, University of Macau
-* 2024 - 2025: Postdoctoral Fellow, The Hong Kong Polytechnic University
-  * Supervisor: Jie (Jay) Cao
-  
-Research interests
-======
-* Empirical Asset Pricing: derivatives, return predictability, investments
-* Machine learning in Finance: textual analysis, large language models
+<h2>Research Interests</h2>
+<ul class="interest-list">
+<li>Empirical Asset Pricing: derivatives, return predictability, investments</li>
+<li>Machine Learning in Finance: textual analysis, large language models</li>
+</ul>
 
-Selected working papers
-======
-1. Forecasting Option Returns with News (with Jie Cao, Bing Han, Gang Li, and Xintong Zhan)
-2. Firm and Macro Information in Corporate Bond Risk Premium (with Jie Cao, Linjia Song, and Xintong Zhan)
-3. The Role of Abnormal Stock Trading Volume in the Equity Option Market (with Jie Cao, Bing Han, Gang Li, and Xintong Zhan)
-4. When Charts Help and Mislead: Visual Peer Effects in Stock Markets (with Jie Cao, Amit Goyal, Xintong Zhan, and Qiruo Zhang)
+<h2>Selected Working Papers</h2>
+{% include working-paper-list.html compact=true %}
+
+<h2>Presentations and Discussions</h2>
+<p><a href="{{ base_path }}/presentation/">View the complete list <span aria-hidden="true">&rarr;</span></a></p>

@@ -6,11 +6,16 @@ author_profile: true
 ---
 
 {% include base_path %}
-
 {% if site.teaching and site.teaching.size > 0 %}
+<ol class="course-list">
 {% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+<li>
+<h2 class="course-title"><a href="{{ base_path }}{{ post.url }}">{{ post.title | replace: 'INTRODUCTION TO MODERN FINANCIAL TECHNOLOGY', 'Introduction to Modern Financial Technology' | escape }}</a></h2>
+<p class="course-meta">{{ post.role }} &middot; {{ post.type }} &middot; {{ post.date | date: '%Y' }}</p>
+<p class="course-meta">{{ post.venue | escape }}</p>
+</li>
 {% endfor %}
+</ol>
 {% else %}
 I will update this page with course materials and syllabi soon.
 {% endif %}

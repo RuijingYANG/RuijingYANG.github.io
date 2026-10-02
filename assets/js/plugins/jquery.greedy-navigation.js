@@ -19,11 +19,18 @@ function updateNav() {
   // The visible list is overflowing the nav
   if($vlinks.width() > availableSpace) {
 
+    var $overflowItem = $vlinks.children('*:not(.masthead__menu-item--lg)').last();
+    // A long site title must never cause unbounded recursion on small screens.
+    if (!$overflowItem.length) {
+      $btn.toggleClass('hidden', $hlinks.children().length === 0);
+      return;
+    }
+
     // Record the width of the list
     breaks.push($vlinks.width());
 
     // Move item to the hidden list
-    $vlinks.children('*:not(.masthead__menu-item--lg)').last().prependTo($hlinks);
+    $overflowItem.prependTo($hlinks);
 
     // Show the dropdown btn
     if($btn.hasClass('hidden')) {
@@ -39,6 +46,9 @@ function updateNav() {
       // Move the item to the visible list
       $hlinks.children().first().appendTo($vlinks);
       breaks.pop();
+      // Restore every item that fits after a single orientation/viewport change.
+      updateNav();
+      return;
     }
 
     // Hide the dropdown btn if hidden list is empty
@@ -52,7 +62,7 @@ function updateNav() {
   $btn.attr("count", breaks.length);
 
   // Recur if the visible list is still overflowing the nav
-  if($vlinks.width() > availableSpace) {
+  if($vlinks.width() > availableSpace && $vlinks.children('*:not(.masthead__menu-item--lg)').length) {
     updateNav();
   }
 

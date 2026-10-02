@@ -54,5 +54,10 @@
   &--lg {
     padding-right: 3em;
     font-weight: 700;
+
+    @include breakpoint(max-width $small) {
+      padding-right: 0;
+      white-space: normal;
+    }
   }
 }

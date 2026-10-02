@@ -11,10 +11,25 @@ locale                   : "en-US"
 title                    : "Ruijing (Chandler) YANG"
 title_separator          : "-"
 name                     : &name "Ruijing (Chandler) YANG"
-description              : &description "Assistant Professor in Finance"
-url                      : https://RuijingYANG.github.io # the base hostname & protocol for your site e.g. "https://RuijingYANG.github.io"
+description              : &description "Ruijing (Chandler) Yang is an Assistant Professor in Finance at the University of Macau, studying empirical asset pricing, derivatives, and machine learning in finance."
+url                      : https://ruijingyang.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "RuijingYANG/RuijingYANG.github.io"
+
+# Page descriptions used for search results and social previews.
+seo_descriptions:
+  "/": *description
+  "/research/": "Working papers by Ruijing (Chandler) Yang on asset pricing, equity options, corporate bond risk premiums, and visual peer effects."
+  "/teaching/": "Finance courses taught by Ruijing (Chandler) Yang at the University of Macau."
+  "/presentation/": "Conference presentations and discussions by Ruijing (Chandler) Yang."
+  "/cv/": "Education, academic appointments, research interests, and working papers of Ruijing (Chandler) Yang."
+og_image                 : "profile.jpg"
+social:
+  type: Person
+  name: "Ruijing (Chandler) Yang"
+  links:
+    - "https://scholar.google.com/citations?user=VcuYWEEAAAAJ"
+    - "https://www.linkedin.com/in/ruijing-yang-1a34972a1/"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -69,7 +84,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true      # no public blog posts; omit an empty feed link
   path                   : # blank (default) uses feed.xml
 
 
@@ -99,11 +114,14 @@ exclude:
   - .jekyll-assets-cache
   - .sass-cache
   - CHANGELOG
+  - CONTRIBUTING.md
   - Capfile
   - Gemfile
+  - Gemfile.lock
   - Gruntfile.js
   - LICENSE
   - README
+  - README.md
   - Rakefile
   - assets/js/_main.js
   - assets/js/plugins
@@ -111,8 +129,15 @@ exclude:
   - config
   - gulpfile.js
   - log
+  - lectures
+  - markdown_generator
   - node_modules
   - package.json
+  - package-lock.json
+  - scripts
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
   - tmp
   - vendor
 keep_files:
@@ -145,7 +170,7 @@ kramdown:
 # Collections
 collections:
   research:
-    output: true
+    output: false
     permalink: /:collection/:path/
   teaching:
     output: true
