@@ -1,0 +1,106 @@
+name: Sync CV from Overleaf GitHub repo
+
+on:
+  workflow_dispatch:
+    inputs:
+      cv_repository:
+        description: "GitHub repository synced from Overleaf, e.g. RuijingYANG/cv"
+        required: true
+        default: "RuijingYANG/cv"
+      cv_ref:
+        description: "Branch, tag, or SHA to read from the CV repository"
+        required: true
+        default: "main"
+      cv_tex_path:
+        description: "Path to the main .tex file inside the CV repository"
+        required: true
+        default: "main.tex"
+      cv_pdf_path:
+        description: "Optional: path to an already-built PDF inside the CV repository"
+        required: false
+        default: ""
+      output_pdf_path:
+        description: "Where to publish the CV PDF in this website repository"
+        required: true
+        default: "files/Ruijing_Yang_CV.pdf"
+  repository_dispatch:
+    types:
+      - sync-cv
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-cv
+  cancel-in-progress: false
+
+jobs:
+  sync-cv:
+    name: Build and publish CV PDF
+    runs-on: ubuntu-latest
+    env:
+      CV_REPOSITORY: ${{ github.event.client_payload.cv_repository || github.event.inputs.cv_repository || 'RuijingYANG/cv' }}
+      CV_REF: ${{ github.event.client_payload.cv_ref || github.event.inputs.cv_ref || 'main' }}
+      CV_TEX_PATH: ${{ github.event.client_payload.cv_tex_path || github.event.inputs.cv_tex_path || 'main.tex' }}
+      CV_PDF_PATH: ${{ github.event.client_payload.cv_pdf_path || github.event.inputs.cv_pdf_path || '' }}
+      OUTPUT_PDF_PATH: ${{ github.event.client_payload.output_pdf_path || github.event.inputs.output_pdf_path || 'files/Ruijing_Yang_CV.pdf' }}
+
+    steps:
+      - name: Check out website repository
+        uses: actions/checkout@v4
+        with:
+          path: website
+
+      - name: Check out CV repository synced from Overleaf
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.CV_REPOSITORY }}
+          ref: ${{ env.CV_REF }}
+          token: ${{ secrets.CV_REPO_TOKEN || github.token }}
+          path: cv-source
+
+      - name: Compile CV from LaTeX source
+        if: ${{ env.CV_PDF_PATH == '' }}
+        uses: xu-cheng/latex-action@v3
+        with:
+          working_directory: cv-source
+          root_file: ${{ env.CV_TEX_PATH }}
+          latexmk_use_xelatex: true
+
+      - name: Copy CV PDF into website files directory
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [[ -n "${CV_PDF_PATH}" ]]; then
+            source_pdf="cv-source/${CV_PDF_PATH}"
+          else
+            source_pdf="cv-source/${CV_TEX_PATH%.*}.pdf"
+          fi
+
+          if [[ ! -f "${source_pdf}" ]]; then
+            echo "Could not find generated CV PDF at ${source_pdf}" >&2
+            exit 1
+          fi
+
+          destination="website/${OUTPUT_PDF_PATH}"
+          mkdir -p "$(dirname "${destination}")"
+          cp "${source_pdf}" "${destination}"
+
+      - name: Commit updated CV PDF
+        shell: bash
+        working-directory: website
+        run: |
+          set -euo pipefail
+
+          git add "${OUTPUT_PDF_PATH}"
+
+          if git diff --cached --quiet -- "${OUTPUT_PDF_PATH}"; then
+            echo "CV PDF is already up to date; nothing to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update CV PDF from Overleaf sync"
+          git push
