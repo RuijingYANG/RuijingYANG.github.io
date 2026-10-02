@@ -8,6 +8,7 @@ author_profile: true
 {% include base_path %}
 
 ## Presentations (* by coauthor)
+- ABFER-JFDS Conference on AI for Finance, 2026, Hefei, China
 - American Finance Association (AFA) Annual Meeting*, 2025, San Francisco, USA
 - Midwest Finance Association (MFA) Annual Meeting, 2024, Chicago, USA
 - Annual Conference of the Asia-Pacific Association of Derivatives, 2023
