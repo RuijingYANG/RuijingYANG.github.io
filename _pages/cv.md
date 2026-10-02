@@ -32,3 +32,4 @@ Selected working papers
 2. Forecasting Corporate Bond Index Returns with Firm Characteristics and Macro Variables (with Jie Cao, Linjia Song, and Xintong Zhan)
 3. Abnormal Media Coverage and Option Returns (with Linjia Song)
 4. The Role of Abnormal Stock Trading Volume in the Equity Option Market (with Jie Cao, Bing Han, Gang Li, and Xintong Zhan)
+5. When Charts Help and Mislead: Visual Peer Effects in Stock Markets
