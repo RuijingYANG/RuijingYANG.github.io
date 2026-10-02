@@ -1,6 +1,6 @@
 ---
 title: "Firm and Macro Information in Corporate Bond Risk Premium"
-authors: Linjia Song and Ruijing Yang
+authors: "with Jie Cao, Linjia Song, and Xintong Zhan"
 collection: research
 working_paper_order: 2
 permalink: 
