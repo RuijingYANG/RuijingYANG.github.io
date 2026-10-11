@@ -14,6 +14,13 @@ Built with Jekyll and hosted on GitHub Pages. Current build and deployment infor
 - [`_config.yml`](_config.yml): site settings.
 - `_includes/`, `_layouts/`, `_sass/`, and `assets/`: templates and styling.
 
+## Downloadable CV
+
+The official CV is maintained in Overleaf. Update `files/Ruijing_Yang_CV.pdf`
+only with a PDF compiled from that project. Website records in `_teaching/`,
+`_research/`, and `_data/` are maintained separately; they must not be used to
+regenerate or replace the official CV.
+
 ## Local preview
 
 With Ruby and Bundler installed, run from the repository root:
