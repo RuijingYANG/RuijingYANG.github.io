@@ -16,10 +16,16 @@ Built with Jekyll and hosted on GitHub Pages. Current build and deployment infor
 
 ## Downloadable CV
 
-The official CV is maintained in Overleaf. Update `files/Ruijing_Yang_CV.pdf`
-only with a PDF compiled from that project. Website records in `_teaching/`,
-`_research/`, and `_data/` are maintained separately; they must not be used to
-regenerate or replace the official CV.
+The official CV is maintained in the [My_CV Overleaf project](https://www.overleaf.com/project/6a43cbacbd56c24076bcb825), in `Chandler_CV.tex`.
+
+For future CV updates, edit that Overleaf source, preserve its existing template,
+compile and check the PDF, then replace `files/Ruijing_Yang_CV.pdf` with the
+compiled download. Synchronize the corresponding website records and verify
+that the published PDF matches the Overleaf export. Teaching entries should
+use the same course titles, semesters, and order on the website and in the CV.
+
+Website records in `_teaching/`, `_research/`, and `_data/` are maintained
+separately; they must not be used to regenerate or replace the official CV.
 
 ## Local preview
 
