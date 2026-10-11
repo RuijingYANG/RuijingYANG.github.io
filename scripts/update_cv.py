@@ -71,10 +71,14 @@ for i,p in enumerate(paper_records(),1):
  items.append(KeepTogether(block))
 section('Teaching Experience')
 line('<b>Instructor, Faculty of Business Administration, University of Macau</b>')
-for p in sorted((ROOT/'_teaching').glob('*.md')):
- d=yaml.safe_load(p.read_text().split('---',2)[1])
+teaching=[]
+for p in (ROOT/'_teaching').glob('*.md'):
+ teaching.append((p,yaml.safe_load(p.read_text().split('---',2)[1])))
+# Match Jekyll's date/path ordering and the Teaching page's reversed loop.
+for p,d in sorted(teaching,key=lambda record:(str(record[1]['date']),record[0].name),reverse=True):
  title=d['title'].replace('INTRODUCTION TO MODERN FINANCIAL TECHNOLOGY','Introduction to Modern Financial Technology').replace('–','-')
- line(f"{escape(title)} ({escape(d['type'])}), {str(d['date'])[:4]}",'small')
+ semester=d.get('semester',str(d['date'])[:4])
+ line(f"{escape(title)} ({escape(d['type'])}), {escape(semester)}",'small')
 section('Honors and Awards')
 for text in [
  'Best Paper Award, Hong Kong Conference for Fintech, AI, and Big Data in Business | 2024',
