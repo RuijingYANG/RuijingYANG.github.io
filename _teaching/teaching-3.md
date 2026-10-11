@@ -1,5 +1,5 @@
 ---
-title: "FINC2000 - Corporate Finance"
+title: "FINC2000 - Financial Management"
 collection: teaching
 role: "Instructor"
 type: "Undergraduate"
